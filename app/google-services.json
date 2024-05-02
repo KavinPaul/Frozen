@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "29846223536",
+    "project_id": "frozen-kavss",
+    "storage_bucket": "frozen-kavss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29846223536:android:2b7715bb7897f23bf55975",
+        "android_client_info": {
+          "package_name": "com.example.frozen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtIA4v1CDfoaVCKb3_aRAG_cWlEQzsiMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

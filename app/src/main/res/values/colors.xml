@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#FCE4EC</color>
+    <color name="purple">#F3E5F5</color>
+    <color name="blue">#E3F2FD</color>
+    <color name="green">#E0F7FA</color>
+    <color name="violet">#E8EAF6</color>
+    <color name="text">#D7EAF8</color>
+    <color name="vvv">#D6F5D8</color>
+    <color name="lilac">#CE93D8</color>
+    <color name="peach">#ED8EAE</color>
+    <color name="navy">#A1DCF6</color>
+    <color name="grey">#888C8E</color>
+    <color name="greyy">#BDC0C1</color>
+    <color name="emerald">#6DDFD4</color>
+</resources>

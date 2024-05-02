@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".AddAddressActivity">
+
+    <TextView
+        android:id="@+id/add_address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="ADD ADDRESS"
+        android:textAlignment="center"
+        android:textColor="@color/lilac"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/et_add_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.5"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:padding="13dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_add_full_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.5"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/montserrat"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:padding="13dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_add_city"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.5"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/montserrat"
+        android:hint="City"
+        android:inputType="textPostalAddress"
+        android:padding="13dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_add_postal_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.5"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/montserrat"
+        android:hint="Postal Code"
+        android:inputType="number"
+        android:padding="13dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/et_add_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.5"
+        android:background="@drawable/custom_edittext"
+        android:fontFamily="@font/montserrat"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="13dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_confirm_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gradient_button"
+        android:text="CONFIRM ADDRESS"
+        app:backgroundTint="@null"
+        android:textSize="15sp"
+        app:cornerRadius="25dp"/>
+
+</LinearLayout>

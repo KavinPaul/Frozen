@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Frozen</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_text">Already have an account?</string>
+    <string name="sign_up_now">SIGN UP NOW!</string>
+    <string name="signup_text">Don\'t have an account?</string>
+    <string name="signup">SIGN UP</string>
+    <string name="name">Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rupee_sign">$</string>
+</resources>

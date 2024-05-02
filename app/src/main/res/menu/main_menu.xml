@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="CART"
+        android:id="@+id/action_go_to_cart"/>
+
+    <item android:title="LOG OUT"
+        android:id="@+id/action_log_out"/>
+
+
+</menu>
